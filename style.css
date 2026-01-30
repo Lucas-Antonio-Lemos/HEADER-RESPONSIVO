@@ -1,4 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.cabecalho {
+    height: 100px;
+    background-color: gray;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho img {
+    height: 70px;
+    width: 100px;
+    border-radius: 40%;
+    margin-left: 20px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+ 
+   
+}
+.cabecalho a:hover{
+    text-transform: uppercase;
+    background-color:#ccc;
+    color: black;
+    border-bottom: 3px solid rgb(61, 59, 59);
+    border-left: 3px solid rgb(61, 59, 59);
+    transition: 1s;
+
+}
+
+.menu ul,
+.sub-menu ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+.sub-menu {
+    margin-left: auto;
+}
+nav li {
+    padding: 10px;
 }
